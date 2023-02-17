@@ -271,7 +271,7 @@ dat <- dat %>% ungroup() %>% group_by(cert) %>% mutate(ever_teach = max(finteach
 table(dat$ever_teach) 
 
 findat <- dat %>% filter(ever_teach == 1)
-findat <- dupecol(findat19)
+findat <- dupecol(findat)
 table(findat$dupyear) 
 
 
