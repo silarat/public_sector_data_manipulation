@@ -1,6 +1,6 @@
 setwd("c:/Users/Palmy/Desktop/teacher_attrition_STEM_workforce")
 dat <- read.csv("dat_ML.csv")
-join <- read.csv("c:/Users/Palmy/Desktop/teacher_attrition_STEM_workforce/RAND/ccd_sch_029_2122_w_1a_071722/ccd_sch_029_2122_w_1a_071722.csv")
+join <- read.csv("XXX")
 library(tidyverse)
 library(stringr)
 
