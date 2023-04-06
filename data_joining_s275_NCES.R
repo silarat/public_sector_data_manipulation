@@ -1,4 +1,4 @@
-setwd("c:/Users/Palmy/Desktop/teacher_attrition_STEM_workforce")
+setwd("XX")
 dat <- read.csv("dat_ML.csv")
 join <- read.csv("XXX")
 library(tidyverse)
